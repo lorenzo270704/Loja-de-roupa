@@ -6,7 +6,6 @@ package lojaderoupa.dao;
  * and open the template in the editor.
  */
 //thiago
-
 /**
  *
  * @author 182200155
