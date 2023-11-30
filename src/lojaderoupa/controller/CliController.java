@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lojaderoupa.view;
+package lojaderoupa.controller;
 
 /**
  *
  * @author 182200155
  */
-public class Teste {
+public class CliController {
     
 }
