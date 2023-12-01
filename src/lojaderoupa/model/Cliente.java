@@ -76,8 +76,7 @@ public class Cliente {
     }
     
      public void Incluir(Cliente cli) {
-        //CliDAO cDAO = new CliDAO();
-        //pDAO.Incluir(prop);
+        
     }
 
     
