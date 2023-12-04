@@ -5,6 +5,8 @@
  */
 package lojaderoupa.model;
 
+import lojaderoupa.dao.CliDAO;
+
 /**
  *
  * @author 182200155
@@ -76,8 +78,10 @@ public class Cliente {
     }
     
      public void Incluir(Cliente cli) {
-        
+       CliDAO cDAO = new CliDAO();
+        cDAO.Incluir(cli);
     }
-
+    
+   
     
 }

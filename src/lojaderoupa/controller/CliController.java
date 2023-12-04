@@ -5,10 +5,20 @@
  */
 package lojaderoupa.controller;
 
+import lojaderoupa.model.Cliente;
+
 /**
  *
  * @author 182200155
  */
 public class CliController {
+    public void Incluir(String nomeCliente, String emailCliente, String CPF, String endereco) {
+        //Fazer validações
+        if(!nomeCliente.equals("")&&!emailCliente.equals("")&&!CPF.equals("")&&!endereco.equals(""))
+        {
+            Cliente cli = new Cliente(nomeCliente,emailCliente,CPF,endereco);
+            cli.Incluir(cli);
+        }
+    }
     
 }
