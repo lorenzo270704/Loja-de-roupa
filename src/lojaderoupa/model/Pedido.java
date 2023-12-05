@@ -10,5 +10,9 @@ package lojaderoupa.model;
  * @author 182200155
  */
 public class Pedido {
+    private int idPedido;
+    private float valorTotal;
+    private String formaPagamento;
+   
     
 }
