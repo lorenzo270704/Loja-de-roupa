@@ -13,7 +13,7 @@ import lojaderoupa.model.Cliente;
  */
 public class CliDAO{
         public void Incluir(Cliente cli){
-        String sql =  "INSERT INTO proprietario (nomeCliente, emailCliente, CPF, endereco) VALUES ( "
+        String sql =  "INSERT INTO Cliente (nomeCliente, emailCliente, CPF, endereco) VALUES ( "
                     + " '" + cli.getNomeCliente()+   "' ,  "
                     + " '" + cli.getEmailCliente() +  "' ,  "
                     + " '" + cli.getCPF() +"' , "

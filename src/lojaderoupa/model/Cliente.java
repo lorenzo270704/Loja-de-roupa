@@ -13,8 +13,8 @@ import lojaderoupa.dao.CliDAO;
  */
 public class Cliente {
     private int idCliente;
-    private String nomeCliente;
-    private String emailCliente;
+    static String nomeCliente;
+    static String emailCliente;
     private String CPF;
     private String endereco;
 
