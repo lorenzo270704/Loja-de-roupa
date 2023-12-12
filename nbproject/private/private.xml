@@ -2,10 +2,23 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/66211020764.SENACINFO/Desktop/Loja-de-roupa/src/lojaderoupa/model/Produto.java</file>
             <file>file:/C:/Users/66211020764.SENACINFO/Desktop/Loja-de-roupa/src/lojaderoupa/model/Estoque.java</file>
             <file>file:/C:/Users/66211020764.SENACINFO/Desktop/Loja-de-roupa/src/lojaderoupa/model/Categoria.java</file>
         </group>
+=======
+<<<<<<< HEAD
+        <group/>
+=======
+        <group>
+            <file>file:/C:/Users/silvi/OneDrive/Documentos/NetBeansProjects/Loja-de-roupa/src/lojaderoupa/model/Pedido.java</file>
+            <file>file:/C:/Users/silvi/OneDrive/Documentos/NetBeansProjects/Loja-de-roupa/src/lojaderoupa/controller/CliController.java</file>
+            <file>file:/C:/Users/silvi/OneDrive/Documentos/NetBeansProjects/Loja-de-roupa/src/lojaderoupa/model/Cliente.java</file>
+            <file>file:/C:/Users/silvi/OneDrive/Documentos/NetBeansProjects/Loja-de-roupa/src/lojaderoupa/dao/CliDAO.java</file>
+        </group>
+>>>>>>> 45618506b19f7b3ccf2dc4de909b0e6c528cba09
+>>>>>>> 0d3e5fbe04c4ea70dae8d14d883a2ebd4c653c1b
     </open-files>
 </project-private>

@@ -5,6 +5,8 @@
  */
 package lojaderoupa.view;
 
+
+
 /**
  *
  * @author 182200155
@@ -43,6 +45,11 @@ public class LojaRoupa extends javax.swing.JFrame {
         jLabel1.setText("Multi-marcas");
 
         jButton2.setText("Loja");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Estoque");
 
@@ -100,6 +107,10 @@ public class LojaRoupa extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+      
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
