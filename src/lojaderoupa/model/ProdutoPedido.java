@@ -10,5 +10,6 @@ package lojaderoupa.model;
  * @author 182200155
  */
 public class ProdutoPedido {
+    private String quantidade;
     
 }
