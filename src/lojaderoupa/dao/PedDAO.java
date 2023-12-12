@@ -17,7 +17,7 @@ public class PedDAO {
         String sql =  "INSERT INTO Pedido (nomeCliente, CPF, endereco, produto, tamanho, ValorTotal) VALUES ( "
                     + " '" + ped.getCliente()+   "' ,  "
                     + " '" + ped.getProduto() +  "' ,  "
-                    + " '" + ped.getValorTotal() +"'  ) ";
+                    + " '" + ped.getValorTot() +"'  ) ";
         System.out.println(sql);
         conexao.executar( sql );
         JOptionPane.showMessageDialog(null, "Registro incluido com sucesso!!!");  
