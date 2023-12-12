@@ -9,8 +9,29 @@ package lojaderoupa.model;
  *
  * @author 66211020764
  */
-public class Categoria {
-    private int idCategoria;
-    private String nomeCat;
-    
+public enum Categoria {
+   CAMISETA("Camiseta"),
+   CROPPED("Cropped"),
+   BERMUDA("Bermuda"),
+   SHORT("Short"),
+   SAIA("Saia"),
+   VESTIDO("Vestido"),
+   CALCA("Calça"),
+   CASACO("Casaco"),
+   MOLETOM("Moletom"),
+   CUECA("Cueca"),
+   PECAINTIMA("Peça intima"),
+   ACESSORIO("Acessório");
+   
+   private String descricao;
+   
+   Categoria(String descricao){
+       this.descricao = descricao;
+   }
+   
+   public String getDescricao(){
+       return descricao;
+   }
+           
+           
 }

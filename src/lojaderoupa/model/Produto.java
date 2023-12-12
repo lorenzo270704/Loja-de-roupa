@@ -10,11 +10,7 @@
  */
 package lojaderoupa.model;
 
-/**
- *
-<<<<<<< HEAD
- * @author 66211020764
- */
+
 public class Produto {
     private int idProduto;
     private String nomeProd;
