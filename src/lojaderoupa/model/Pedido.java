@@ -16,8 +16,8 @@ public class Pedido{
     private int idPedido;
     static Cliente cliente;
     static Produto produto;
-    private float valorTotal;
-    private String formaPagamento;
+    private double valorTot;
+    private String pagamento;
     
     
     
@@ -46,12 +46,12 @@ public class Pedido{
         this.produto = produto;
     }
 
-    public float getValorTotal() {
-        return valorTotal;
+    public double getValorTot() {
+        return valorTot;
     }
 
-    public void setValorTotal(float valorTotal) {
-        this.valorTotal = valorTotal;
+    public void setValorTot(double valorTot) {
+        this.valorTot = valorTot;
     }
     
     public Pedido(){
@@ -59,21 +59,21 @@ public class Pedido{
     }
     
    
-    public Pedido(Cliente cliente, Produto produto,float valorTotal ){
+    public Pedido(Cliente cliente, Produto produto,double valorTot ,String pagamento){
         //this.cliente = cliente;
         //this.produto = produto;
-        Cliente cliente = new Cliente();
-        cliente.setNomeCliente(formaPagamento);
-        cliente.setCPF(formaPagamento);
+        Cliente c = new Cliente();
+        c.setNomeCliente("");
+        c.setCPF("");
         
-        this.valorTotal = valorTotal;
+        this.valorTot = valorTot;
         
     }
-     public Pedido(int id,Cliente cliente, Produto produto,float valorTotal ){
+     public Pedido(int id,Cliente cliente, Produto produto, double valorTot){
         this.idPedido = id;
         this.cliente = cliente;
         this.produto = produto;
-        this.valorTotal = valorTotal;
+        this.valorTot = valorTot;
         
     }
       public void Incluir(Pedido ped) {
